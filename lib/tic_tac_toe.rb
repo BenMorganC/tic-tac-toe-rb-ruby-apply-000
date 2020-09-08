@@ -33,6 +33,8 @@ def valid_move?(board, index)
 end
 
 def turn(board)
+  if over?(board)
+    
   if draw?(board)
     puts "Draw"
   end
