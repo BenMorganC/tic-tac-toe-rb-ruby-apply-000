@@ -138,7 +138,7 @@ def play(board)
   play += 1
 end
 if over?(board) && won?(board)
-  puts "Congratulations winner(board)"
+  puts "Congratulations X!"
   elsif over?(board) && draw?(board)
   puts "Draw"
 end
