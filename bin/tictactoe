@@ -6,5 +6,14 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
 display_board(board)
-
+puts "Please enter 1-9:"
+user_input = gets.strip
+index = input_to_index(user_input)
 play(board)
+
+
+user_input = gets.strip
+index = input_to_index(user_input)
+move(board, index, character = "X")
+display_board(board)
+update_board_at_with(board, index, character)
