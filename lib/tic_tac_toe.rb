@@ -33,13 +33,10 @@ def valid_move?(board, index)
 end
 
 def turn(board)
-  if over?(board)
-    
-  if draw?(board)
+  if over?(board) && won?(board)
+    puts "Congratulations (winner(board))"
+  elsif over?(board) && draw?(board)
     puts "Draw"
-  end
-  if winner(board)
-    puts "Congratulations winner(board)"
   end
   puts "Please enter 1-9:"
   input = gets.strip
