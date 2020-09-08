@@ -142,7 +142,7 @@ if over?(board) && winner(board) == "X"
   elsif over?(board) && winner(board) == "O"
   puts "Congratulations O!"
   elsif over?(board) && draw?(board)
-  puts "Draw"
+  puts "Cat's Game!"
 end
 end
 
