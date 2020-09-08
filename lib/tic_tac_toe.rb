@@ -37,7 +37,7 @@ def turn(board)
     puts "Draw"
   end
   if winner(board)
-    puts "Congratulations (winner(board))"
+    puts "Congratulations" winner(board)
   end
    puts "Please enter 1-9:"
   input = gets.strip
