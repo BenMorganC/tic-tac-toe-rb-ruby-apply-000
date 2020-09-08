@@ -36,6 +36,7 @@ def turn(board)
   if draw?(board)
     puts "Draw"
     elsif winner(board)
+    puts "Congratulations (winner(board))"
     elsif puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
