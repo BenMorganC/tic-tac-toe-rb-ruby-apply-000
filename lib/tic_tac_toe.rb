@@ -137,7 +137,7 @@ def play(board)
   turn(board)
   play += 1
 end
-
+end
 
 
 
