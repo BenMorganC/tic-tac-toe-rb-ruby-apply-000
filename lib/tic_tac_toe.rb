@@ -36,7 +36,7 @@ def turn(board)
   if draw?(board)
     puts "Draw"
   end
-    elsif winner(board)
+  if winner(board)
     puts "Congratulations (winner(board))"
   end
     elsif puts "Please enter 1-9:"
