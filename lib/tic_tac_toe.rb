@@ -137,8 +137,10 @@ def play(board)
   turn(board)
   play += 1
 end
-if over?(board) && won?(board)
+if over?(board) && winner(board) == "X"
   puts "Congratulations X!"
+  elsif over?(board) && winner(board) == "O"
+  puts "Congratulations O!"
   elsif over?(board) && draw?(board)
   puts "Draw"
 end
