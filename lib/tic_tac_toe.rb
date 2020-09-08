@@ -49,7 +49,7 @@ end
   else
     turn(board)
   end
-end
+
 
 
 def turn_count(board)
