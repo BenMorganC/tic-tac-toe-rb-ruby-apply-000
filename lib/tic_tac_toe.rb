@@ -136,7 +136,6 @@ def play(board)
   until over?(board)
   turn(board)
   play += 1
-end
 if over?(board) && won?(board)
   puts "Congratulations winner"
 end
