@@ -39,7 +39,6 @@ def turn(board)
   if winner(board)
     puts "Congratulations winner(board)"
   end
-end
   puts "Please enter 1-9:"
   input = gets.strip
   index = input_to_index(input)
