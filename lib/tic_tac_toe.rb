@@ -39,7 +39,7 @@ def turn(board)
   if valid_move?(board, index)
     turn_count(board)
     current_player(board)
-    move(board, index, current_player)
+    move(board, index, current_player(board))
     display_board(board)
   else
     turn(board)
