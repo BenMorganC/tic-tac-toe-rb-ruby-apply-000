@@ -136,13 +136,6 @@ def play(board)
   until over?(board)
   turn(board)
   play += 1
-if over?(board) && won?(board)
-  puts "Congratulations winner"
-end
-if over?(board) && draw?(board)
-  puts "Draw"
-end
-end
 end
 
 
